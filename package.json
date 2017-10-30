@@ -1,0 +1,37 @@
+{
+  "name": "ssldec",
+  "version": "1.0.1",
+  "description": "Simple encrypt & decrypt using RSA private keys",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "base64url": "^1.0.6",
+    "node-rsa": "^0.3.3"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmangani/ssldec.git"
+  },
+  "keywords": [
+    "encrypt",
+    "decrypt",
+    "rsa",
+    "privatekeys",
+    "ssl"
+  ],
+  "author": "Lorenzo Mangani <lorenzo.mangani@gmail.com>",
+  "original_author": "Laju Morrison <morrelinko@gmail.com> (http://morrelinko.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lmangani/ssldec/issues"
+  },
+  "homepage": "https://github.com/lmangani/ssldec"
+}
