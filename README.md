@@ -1,7 +1,7 @@
-# ssldec
+# :unlock: ssldec
 Promise based SSL Encrypt/Decrypt using Private or Public Keys
 
-## Usage
+## :key: Usage
 ```
 let SSLdec = require('ssldec');
 let crypt = new SSLdec();
@@ -20,4 +20,4 @@ crypt.encrypt('somedata').then(function(encrypted_string){ console.log(encrypted
 
 #### Credit
 
-Based on [recrypt](https://github.com/morrelinko/recrypt) 
+Pure JS RSA by [node-rsa](https://www.npmjs.com/package/node-rsa), library based on [recrypt](https://github.com/morrelinko/recrypt)
